@@ -4,6 +4,8 @@ The main purpose of this project was to build a robotic car that can enter into 
 ## Needed Components
 * An Arduino Board (Nano, Uno, or Mega)
 * 5 Line Tracking Sensors (TCRT5000 Modules are preferred)
-* 1 L298N Dual H-Bridge Driver Board
-* 2 DC Motors
+* 2 L298N Dual H-Bridge Driver Boards
+* 4 DC Motors
 * A Suitable Car Body
+### Note
+The speeds of every motor, as well as the PID parameters (kp, kd, and ki) all need to be tuned according to the specific details of the car being used.
